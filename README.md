@@ -1,32 +1,15 @@
-<<<<<<< HEAD
-# BarterUp-fe
-=======
-## Usage
+# BarterUp
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
+**Nama:** Nam Ye Jin , SMK Telkom Purwokerto
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+---
 
-## Available Scripts
+### Link Website:
 
-In the project directory, you can run:
+---
 
-### `npm run dev`
+### Figma: (https://www.figma.com/design/lYIWqe0nbT0xNk9H981UO8/BarterUp?node-id=0-1&t=Ybf9TlAJ77vOTUJk-1)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+---
 
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-Learn more about deploying your application with the [documentations](https://vite.dev/guide/static-deploy.html)
->>>>>>> 131cd39 (first commit)
+### DAILY REPORT: (https://docs.google.com/spreadsheets/d/1qQpzx4YBnwBmSkLmba1nr45cfDdj6DcfPScmbLHAI0Q/edit?usp=sharing)
