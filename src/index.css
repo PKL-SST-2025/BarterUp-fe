@@ -1,0 +1,11 @@
+
+@import "tailwindcss";
+@import "tailwindcss/utilities";
+
+/* Terapkan font ke seluruh body */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(to bottom, #004041, #002929, black);
+}
+
+
