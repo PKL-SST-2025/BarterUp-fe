@@ -28,22 +28,34 @@ const Navbar: Component = () => {
               </svg>
           </button>
           {/* ← NEW: Profile avatar right beside desktop search */}
+          <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" type="button">
             {profilePicture && (
               <div class="flex items-center ms-4">
-                <a href="/profile">
                 <img
                   src={profilePicture}
                   alt="Profile"
                   class="w-8 h-8 rounded-full object-cover"
-                />
-                </a>
+                />              
               </div>
             )}
+          </button>
+
+          <div id="dropdown" class="z-10 hidden bg-[#000]/30 divide-y divide-gray-100 rounded-lg shadow-sm w-44">
+              <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                <li>
+                  <a href="/profile" class="block px-4 py-2 hover:bg-black/30">Edit Profile</a>
+                </li>
+                <li>
+                  <a href="/analytics" class="block px-4 py-2 hover:bg-black/30">Analytics</a>
+                </li> 
+              </ul>
+          </div>
+            
         </div>
           <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
             
             {/* Ini UL untuk nav links */}
-            <ul class="flex flex-col md:flex-row p-4 md:p-0 mt-4 md:mt-0 space-y-2 md:space-y-0 md:space-x-2 font-medium rounded-lg bg-transparent ">
+            <ul class="flex flex-col md:flex-row md:p-0 mt-4 md:mt-0 space-y-2 md:space-y-0 md:space-x-2 font-medium rounded-lg bg-transparent ">
               <li>
                 <A href="/dashboard" class="text-white hover:text-[#4CE0D2] block py-2 px-3 rounded-md">
                   Home

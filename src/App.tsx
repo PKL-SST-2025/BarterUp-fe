@@ -12,6 +12,7 @@ import PersonalDetail from "./pages/PersonalDetail";
 import UploadProfile from "./pages/UploadProfile";
 import Dashboard from "./pages/Dashboard";
 import Profile from './pages/Profile';
+import Analytics from './pages/ProfileAnalytics';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="/signup/upload" component={UploadProfile} />
         <Route path="/dashboard" component={Dashboard} />
         <Route path="/profile" component={Profile} />
+        <Route path="/analytics" component={Analytics} />
     </Router>
   );
 }

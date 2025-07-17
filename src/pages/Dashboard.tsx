@@ -78,10 +78,10 @@ const Dashboard: Component = () => {
     });
   };
 
-  // data untuk sidebar kontak terakhir
+   // contacts data untuk grid
   const contacts = [
-    { id: 1, name: "Budi Santoso", avatar: Male2 },
-    { id: 2, name: "Siti Aminah", avatar: W3 },
+    { name: "Budi Santoso", avatar: Male2 },
+    { name: "Siti Aminah", avatar: W3 },
   ];
 
   // filtered posts berdasarkan query

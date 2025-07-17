@@ -1,6 +1,9 @@
 
 @import "tailwindcss";
 @import "tailwindcss/utilities";
+@import "flowbite/src/themes/default";
+@source "../../node_modules/flowbite";
+@plugin "flowbite/plugin";
 
 /* Terapkan font ke seluruh body */
 body {
